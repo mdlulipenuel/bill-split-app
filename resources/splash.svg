@@ -1,0 +1,49 @@
+<svg width="2732" height="2732" viewBox="0 0 2732 2732" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="splashGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="2732" height="2732" fill="url(#splashGradient)"/>
+  
+  <!-- Central icon (smaller version) -->
+  <g transform="translate(866, 866) scale(0.7)">
+    <!-- Receipt/Bill icon -->
+    <rect x="256" y="150" width="512" height="724" rx="40" ry="40" fill="white"/>
+    
+    <!-- Receipt top cut -->
+    <path d="M256 150 L768 150 L768 190 L740 170 L720 190 L700 170 L680 190 L660 170 L640 190 L620 170 L600 190 L580 170 L560 190 L540 170 L520 190 L500 170 L480 190 L460 170 L440 190 L420 170 L400 190 L380 170 L360 190 L340 170 L320 190 L300 170 L280 190 L256 170 Z" fill="white"/>
+    
+    <!-- Bill lines -->
+    <rect x="320" y="280" width="384" height="24" rx="12" fill="#E5E7EB"/>
+    <rect x="320" y="340" width="320" height="24" rx="12" fill="#E5E7EB"/>
+    <rect x="320" y="400" width="256" height="24" rx="12" fill="#E5E7EB"/>
+    <rect x="320" y="460" width="200" height="24" rx="12" fill="#E5E7EB"/>
+    
+    <!-- Total line (bold) -->
+    <rect x="320" y="540" width="384" height="32" rx="16" fill="#4F46E5"/>
+    
+    <!-- Split symbols -->
+    <circle cx="420" cy="650" r="40" fill="#4F46E5"/>
+    <circle cx="512" cy="650" r="40" fill="#7C3AED"/>
+    <circle cx="604" cy="650" r="40" fill="#4F46E5"/>
+    
+    <!-- Dollar signs in circles -->
+    <text x="420" y="670" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">$</text>
+    <text x="512" y="670" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">$</text>
+    <text x="604" y="670" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">$</text>
+    
+    <!-- Connection lines -->
+    <line x1="420" y1="610" x2="420" y2="590" stroke="#9CA3AF" stroke-width="4"/>
+    <line x1="512" y1="610" x2="512" y2="590" stroke="#9CA3AF" stroke-width="4"/>
+    <line x1="604" y1="610" x2="604" y2="590" stroke="#9CA3AF" stroke-width="4"/>
+    
+    <line x1="380" y1="590" x2="644" y2="590" stroke="#9CA3AF" stroke-width="4"/>
+  </g>
+  
+  <!-- App name -->
+  <text x="1366" y="2200" font-family="Arial" font-size="120" font-weight="bold" fill="white" text-anchor="middle">Bill Split App</text>
+</svg>
