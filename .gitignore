@@ -41,6 +41,7 @@ android/gradlew.bat
 # Keystore files (NEVER commit these)
 *.keystore
 *.jks
+keystore.properties
 
 # Environment variables
 .env
